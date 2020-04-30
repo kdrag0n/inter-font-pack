@@ -3,5 +3,5 @@
 An Android font pack with:
 
 - Inter for general text
-- Fira Code for monospace
+- JetBrains Mono for monospace
 - New York for serif
