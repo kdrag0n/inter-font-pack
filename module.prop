@@ -1,7 +1,7 @@
 id=inter-font
 name=Inter Font Pack
-version=v3.13.2
-versionCode=31301
+version=v3.13.3
+versionCode=31303
 author=kdrag0n
-description=A font pack for Android with the Inter font family for body text, San Francisco UI Text for condensed, JetBrains Mono for monospace, and New York for serif.
+description=A font pack for Android with the Inter font family for body text, San Francisco UI Text for condensed, JetBrains Mono for monospace, and Source Serif Pro for serif.
 support=https://t.me/kdrag0n
