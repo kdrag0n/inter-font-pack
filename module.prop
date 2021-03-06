@@ -3,5 +3,5 @@ name=Inter Font Pack
 version=v3.15.1
 versionCode=31501
 author=kdrag0n
-description=A font pack for Android with the Inter font family for body text, San Francisco UI Text for condensed, Fira Code for monospace, and Source Serif Pro for serif.
-support=https://t.me/kdrag0n
+description=Font pack that replaces the system fonts with Inter (sans-serif), Fira Code (monospace), and Source Serif Pro (serif).
+support=https://t.me/proton_projects
