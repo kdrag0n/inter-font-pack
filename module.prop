@@ -1,7 +1,8 @@
 id=inter-font
 name=Inter Font Pack
-version=v3.19.1
-versionCode=31901
+version=v3.19.2
+versionCode=31902
 author=kdrag0n
 description=Font pack that replaces the system fonts with Inter (sans-serif), Fira Code (monospace), and Source Serif Pro (serif).
 support=https://t.me/proton_projects
+updateJson=https://raw.githubusercontent.com/kdrag0n/inter-font-pack/master/update.json
