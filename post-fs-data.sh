@@ -5,7 +5,7 @@ MODDIR=${0%/*}
 sed 's/<\/familyset>//g' /system/etc/fonts.xml | cat - $MODDIR/fallback.xml > $MODDIR/system/etc/fonts.xml
 sed -i 's/<axis tag="ital" stylevalue="1" \/>/<axis tag="ital" stylevalue="1" \/>\n<axis tag="slnt" stylevalue="-10" \/>/g' $MODDIR/system/etc/fonts.xml
 
-if getprop ro.product.system.manufacturer | grep -qE -e "^samsung"; then
+if getprop ro.product.manufacturer | grep -qE -e "^samsung"; then
 		sed 's/<\/familyset>//g' /system/etc/fonts_additional.xml | cat - $MODDIR/fallback.xml > $MODDIR/system/etc/fonts_additional.xml
 		sed -i 's/Clock2019L-RM.ttf/Clock-Inter.ttf/g' $MODDIR/system/etc/fonts.xml
 		sed -i 's/Clock2021.ttf/Clock-Inter.ttf/g' $MODDIR/system/etc/fonts.xml
